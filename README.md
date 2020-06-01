@@ -1,6 +1,4 @@
-# -app-app
-将网站封装成苹果免签app +安卓app
-目前仅支持api调用
+﻿如果您想做一个相似的软件或网站可以使用api方式,无限制
 
 分为两步:提交 查询
 
@@ -25,6 +23,8 @@ sign(签名){appname + url + name + jigou + miaoshu + touyi + img + public + roo
 appname=淘宝&url=https://main.m.taobao.com&name=淘宝&jigou=淘宝机构&miaoshu=淘宝安装程序&touyi=无&img=base64编码的字符串&public=服务器证书&root=根证书&key=秘钥&sign=签名
 服务器返回:{"err":1,"mess":"C32907342F9D958709FFA04DAEA2EBA2"} 参数说明:err为1则提交成功否则失败,mess为查询编号
 
+
+
 查询:
 
 请求地址ַ:https://xujimu.wlznsb.cn/ioss/select.php
@@ -40,3 +40,7 @@ uuid=返回的mess
 1.提交的请求参数内容不允许有+,如果有+请替换成%2B,建议每个字段都进行替换一下
 2.签名的md5必须是utf8编码后的md5
 3.证书要么不全部不填,要么全部填写正确,否则必定打包失败
+4.捐赠微信x2524931333,备注来意捐赠还是解决问题,如果有技术上的问题请付费解决,比较忙,捐赠也不提供技术支持哈,会记录在册,后续更新肯定会有福利
+
+
+
